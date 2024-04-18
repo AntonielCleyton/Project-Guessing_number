@@ -10,7 +10,7 @@ class Verification:
     def user_guess(self):
         attempts = 0
         while attempts != 3:
-            print(self.secret_number)
+            print(self.secret_number)  # For testing purposes, remove in final version
             number = int(input('Choose a number from 1 to 10: '))
             if number == self.secret_number:
                 print(f"You've guessed it, {self.name}! The number was: {self.secret_number}")
@@ -21,9 +21,9 @@ class Verification:
                 print(f'Number of attempts {attempts}.')
                 print("Clearing the screen for a new attempt...")
                 time.sleep(2)
-                os.system('cls')
-     
+                os.system('cls')  # Clear screen for better user experience
 
+# Main program starts here
 print("===Welcome to the Verification Game!===")
 name = str(input("What's your name?\nAnswer: "))
 user = Verification(name)
