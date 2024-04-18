@@ -1,2 +1,2 @@
 # Project-Guessing_number
-Numerical guessing game, using the random, De time library to make it more intuitive for the user.
+This is a simple guessing game implemented in Python. The player is prompted to guess a random number between 1 and 10 within three attempts. If the guess is correct, the player wins; otherwise, they lose. The game provides feedback on each guess, indicating whether it's higher or lower than the correct answer. Enjoy testing your luck and sharpening your guessing skills with this fun game!
